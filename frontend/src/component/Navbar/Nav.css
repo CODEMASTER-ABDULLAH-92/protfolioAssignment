@@ -1,0 +1,27 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    height: 80px;
+    margin: 20px 8rem;
+}
+.logo-img{
+    width: 140px;
+}
+.ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+}
+.ul a{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: gray;
+    cursor: pointer;
+}
+.ul li:hover{
+color: lightskyblue;
+}
